@@ -66,14 +66,17 @@ Cоставляющие важности:
 
 ## Roadmap
 
-* [ ] create-react-app project
-* [ ] list factors
-* [ ] sort listed factors
+* [x] create-react-app project
+* [ ] feature: add list factors
+* [ ] feature: sort listed factors
   + [ ] add factor weights
   + [ ] calculate weights
-* [ ] state management
-* [ ] add authorization & authentification
-* [ ] add data base (mongo)
+* [ ] feature: add state management (redux/context)
+* [ ] feature: add authorization & authentification
+* [ ] feature: add data base (mongodb)
+* [ ] feature: add factor fractions
+* [ ] feature: add fraction bar
+* [ ] feature: add habit tracker with fractions
 
 ***
 
