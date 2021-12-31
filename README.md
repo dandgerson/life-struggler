@@ -1,70 +1,80 @@
-# Getting Started with Create React App
+# life-builder
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+*the app helping you build your life more consciously*
 
-## Available Scripts
+## Project description
 
-In the project directory, you can run:
+### Что делать:
 
-### `npm start`
+01. Определить `факторы` качества жизни
+02. Отсортировать факторы по степени `важности` (вначале важные)
+03. Последовательно идти по `факторам`
+04. Разложить фактор на `составляющие`, принипы
+05. Определить каждой `составляющей` приемлемый достаточный уровень исполнения -- `планку`
+06. Внедрить эти `составляющие` в процесс жизнедеятельности до соответствующей `планки`.
+07. При достижении `планки` всех `составляющих` текущего `фактора` -- переходить к следующему `фактору`.
+08. Если закончена обработка последнего фактора -- вернуться к пункту `1`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Важность фактора
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+`Важность фактора` устанавливает порядок последвательной обработки факторов. Важность фактора субъективна. Важность может быть комплексной.
 
-### `npm test`
+01. Определить составляющие важности фактора
+02. оценить каждую составляющую от 1 до 10
+03. сложить оценки
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Важность фактора будет суммой оценок
 
-### `npm run build`
+***
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+**Планка**
+: Достаточный уровень исполнения требований
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+**Держать планку**
+: Необходимо постоянно следить за выполнением этих факторов. Держать "планку". В случае любого отступления от планки нужно понимать, что это негативно влияет на качество жизни.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+**Повышать планку (Raise The Bar)**
+: После достижения необходимого уровня планки. И усвоения, внедрения в жизнь/быт/привычки, необходим пересмотр степени реализации этого фактора с повышением требований. Повышением планки.
 
-### `npm run eject`
+***
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Факторы влияющие на качество жизни
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+*отсортированные в порядке `важности` .*
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Cоставляющие важности:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+* Степень необходимости
+* Степень влияния на фактор
 
-## Learn More
+***
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Факторы:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+* 'еда, рацион питания, принципы здорового питания', 
+* 'режим сна и бодрствования (качество сна)', 
+* 'физическая нагрузка (физкультура), активный отдых, чтобы быть здоровыми', 
+* 'распорядок дня и порядок вещей в доме', 
+* 'Труд. Возможность трудиться для блага родных.', 
+* 'Возможность пользоваться культурными достижениями (помощь в исцелении, помощь в обучении)', 
+* 'семейное единство. Семейные традиции и родственная общность', 
+* 'окружающая среда (чистая вода, чистый воздух, близость к природе)', 
+* 'окружение друзьями и людьми с которыми хочется быть', 
+* 'комфортное жильё с личным пространством
 
-### Code Splitting
+***
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Roadmap
 
-### Analyzing the Bundle Size
+* [ ] create-react-app project
+* [ ] list factors
+* [ ] sort listed factors
+  + [ ] add factor weights
+  + [ ] calculate weights
+* [ ] state management
+* [ ] add authorization & authentification
+* [ ] add data base (mongo)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+***
 
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+[create-react-app README](./README.cra.md)
