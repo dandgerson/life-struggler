@@ -1,0 +1,7 @@
+body.theme-dark {
+  --dark: rgb(19, 19, 20);
+  --light: rgb(242, 244, 245);
+
+  --background: var(--dark);
+  --text-main: var(--light);
+}
