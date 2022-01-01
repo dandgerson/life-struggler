@@ -68,13 +68,13 @@ Cоставляющие важности:
 
 * [x] create-react-app project
 * [x] feature: add list factors
-* [ ] feature: sort listed factors
-  + [ ] add factor weights
-  + [ ] calculate weights
+* [x] feature: sort listed factors
+  + [x] add factor weights
 * [ ] feature: add state management (redux/context)
 * [ ] feature: add authorization & authentification
 * [ ] feature: add data base (mongodb)
 * [ ] feature: add factor fractions
+* [ ] feature: add compled factor weight
 * [ ] feature: add fraction bar
 * [ ] feature: add habit tracker with fractions
 * [ ] feature: add theming
