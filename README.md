@@ -67,7 +67,7 @@ Cоставляющие важности:
 ## Roadmap
 
 * [x] create-react-app project
-* [ ] feature: add list factors
+* [x] feature: add list factors
 * [ ] feature: sort listed factors
   + [ ] add factor weights
   + [ ] calculate weights
@@ -77,6 +77,7 @@ Cоставляющие важности:
 * [ ] feature: add factor fractions
 * [ ] feature: add fraction bar
 * [ ] feature: add habit tracker with fractions
+* [ ] feature: add theming
 
 ***
 
