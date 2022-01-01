@@ -1,5 +1,5 @@
 import { useEffect } from 'react';
-import { Outlet, NavLink, Link } from 'react-router-dom';
+import { Outlet, NavLink } from 'react-router-dom';
 import cl from 'clsx'
 
 import s from './App.module.scss';
