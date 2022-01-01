@@ -1,7 +1,27 @@
 .root {
   display: flex;
+  flex-direction: column;
   height: 100vh;
 
-  justify-content: center;
+  padding: 24px;
+}
+
+.header {
+  text-align: right;
+}
+
+.main {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+
   align-items: center;
+  justify-content: center;
+}
+
+.factors {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
 }

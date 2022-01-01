@@ -67,7 +67,7 @@ Cоставляющие важности:
 ## Roadmap
 
 * [x] create-react-app project
-* [ ] feature: add list factors
+* [x] feature: add list factors
 * [ ] feature: sort listed factors
   + [ ] add factor weights
   + [ ] calculate weights
