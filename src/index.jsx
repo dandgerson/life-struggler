@@ -14,7 +14,7 @@ ReactDOM.render(
           <Route
             index
             element={(
-              <div>Life Builder</div>
+              <h1>Welcome to Life Builder!</h1>
             )}
           />
           <Route path='/factors' element={<Factors />} />

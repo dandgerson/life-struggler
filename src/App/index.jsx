@@ -14,23 +14,18 @@ const App = () => {
     <div className={s.root}>
       <div className={s.header}>
         <div>
-          <Link
-            to={'/'}
-          >
-            Life Builder
-          </Link>
-        </div>
-
-        <nav>
           <NavLink
             className={({ isActive }) => cl(
               s.navlink,
               isActive ? s['navlink-active'] : '',
             )}
-            to='/'
+            to={'/'}
           >
-            Home
+            Life Builder
           </NavLink>
+        </div>
+
+        <nav>
           <NavLink
             className={({ isActive }) => cl(
               s.navlink,

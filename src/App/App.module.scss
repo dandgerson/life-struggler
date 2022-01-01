@@ -19,12 +19,14 @@
   nav {
     display: flex;
     gap: 12px;
+  }
 
-    .navlink {
-      &-active {
-        color: var(--accent);
-        text-decoration: underline;
-      }
+  .navlink {
+    font-weight: bold;
+    transition: color var(--transition-props);
+
+    &-active {
+      color: var(--accent);
     }
   }
 }
