@@ -70,6 +70,8 @@ Cоставляющие важности:
 * [x] feature: add list factors
 * [x] feature: sort listed factors
   + [x] add factor weights
+* [ ] feature: make factor list interactive
+  + [ ] 
 * [ ] feature: add state management (redux/context)
 * [ ] feature: add authorization & authentification
 * [ ] feature: add data base (mongodb)

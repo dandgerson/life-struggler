@@ -17,7 +17,12 @@ const App = () => {
   return (
     <div className={s.root}>
       <div className={s.header}>
-        Life Builder
+        <div>
+          Life Builder
+        </div>
+        <div>
+          dandgerson
+        </div>
       </div>
 
       <div className={s.main}>
@@ -29,7 +34,9 @@ const App = () => {
             >
               {factor.name}
               {' '}
-              {factor.weight}
+              <span className={s.weight}>
+                {factor.weight}
+              </span>
             </div>
           ))}
         </div>
