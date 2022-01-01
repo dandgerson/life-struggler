@@ -77,6 +77,7 @@ Cоставляющие важности:
 * [ ] feature: add factor fractions
 * [ ] feature: add fraction bar
 * [ ] feature: add habit tracker with fractions
+* [ ] feature: add theming
 
 ***
 
