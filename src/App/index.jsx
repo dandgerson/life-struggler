@@ -1,45 +1,53 @@
-import { useEffect, useMemo } from 'react';
+import { useEffect } from 'react';
+import { Outlet, NavLink, Link } from 'react-router-dom';
+import cl from 'clsx'
 
 import s from './App.module.scss';
-import c from './constants.js'
-
-import sortFactors from 'App/sortFactors';
 
 const App = () => {
   useEffect(() => {
     document.querySelector('body').classList.add('theme-dark')
   }, [])
 
-  const factors = useMemo(() => {
-    return sortFactors(c.factors)
-  }, [])
 
   return (
     <div className={s.root}>
       <div className={s.header}>
         <div>
-          Life Builder
+          <Link
+            to={'/'}
+          >
+            Life Builder
+          </Link>
         </div>
+
+        <nav>
+          <NavLink
+            className={({ isActive }) => cl(
+              s.navlink,
+              isActive ? s['navlink-active'] : '',
+            )}
+            to='/'
+          >
+            Home
+          </NavLink>
+          <NavLink
+            className={({ isActive }) => cl(
+              s.navlink,
+              isActive ? s['navlink-active'] : '',
+            )}
+            to='/factors'>
+            Factors
+          </NavLink>
+        </nav>
+
         <div>
           dandgerson
         </div>
       </div>
 
       <div className={s.main}>
-        <div className={s.factors}>
-          {factors.map((factor, i) => (
-            <div
-              key={i}
-              className={s.factor}
-            >
-              {factor.name}
-              {' '}
-              <span className={s.weight}>
-                {factor.weight}
-              </span>
-            </div>
-          ))}
-        </div>
+        <Outlet />
       </div>
     </div>
   );

@@ -1,0 +1,21 @@
+.root {
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+
+  .factor {
+    padding: 12px;
+    color: var(--text-secondary);
+    // outline: 1px solid var(--accent);
+    transition: background-color var(--transition-props), color var(--transition-props);
+
+    .weight {
+      color: var(--accent);
+    }
+
+    &:hover {
+      color: var(--text-main);
+      background-color: var(--background-dimmed);
+    }
+  }
+}

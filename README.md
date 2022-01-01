@@ -64,22 +64,6 @@ Cоставляющие важности:
 
 ***
 
-## Roadmap
+[roadmap](./documentatoin/roadmap.md)
 
-* [x] create-react-app project
-* [x] feature: add list factors
-* [x] feature: sort listed factors
-  + [x] add factor weights
-* [ ] feature: add authorization & authentification
-* [ ] feature: make factor list interactive
-* [ ] feature: add state management (redux/context)
-* [ ] feature: add data base (mongodb)
-* [ ] feature: add factor fractions
-* [ ] feature: add compled factor weight
-* [ ] feature: add fraction bar
-* [ ] feature: add habit tracker with fractions
-* [ ] feature: add theming
-
-***
-
-[create-react-app README](./README.cra.md)
+[create-react-app README](./documentation/README.cra.md)
