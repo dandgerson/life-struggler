@@ -15,7 +15,7 @@ const Header = () => (
         )}
         to={'/'}
       >
-        Life Builder
+        Life Struggler
       </NavLink>
     </div>
 

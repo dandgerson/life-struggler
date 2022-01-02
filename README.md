@@ -1,12 +1,15 @@
-# life-builder
+# life-struggler
 
-*the app helping you build your life more consciously*
+> How far will you go with struggling your life?
+> Become true Life Struggler for the self Honor!
+
+> *The app helping you build your life more consciously...*
 
 ***
 
 ## Deploy
 
-https://dandgerson.github.io/life-builder/
+https://dandgerson.github.io/life-struggler/
 
 ***
 
