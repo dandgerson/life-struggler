@@ -5,6 +5,7 @@ import 'styles/index.scss';
 import App from 'App';
 import reportWebVitals from './reportWebVitals';
 import Factors from 'App/components/Factors';
+import Login from 'App/components/Login'
 
 ReactDOM.render(
   <React.StrictMode>
@@ -14,7 +15,11 @@ ReactDOM.render(
           <Route
             index
             element={(
-              <h1>Welcome to Life Builder!</h1>
+              <div>
+                <h1>Welcome to Life Builder!</h1>
+
+                <Login />
+              </div>
             )}
           />
           <Route path='/factors' element={<Factors />} />
