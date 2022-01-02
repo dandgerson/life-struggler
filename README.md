@@ -119,6 +119,6 @@ Cоставляющие важности:
 
 ***
 
-[roadmap](./documentation/ROADMAP.md)
+[roadmap](./docs/ROADMAP.md)
 
-[create-react-app README](./documentation/README.cra.md)
+[create-react-app README](./docs/README.cra.md)
