@@ -1,30 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { BrowserRouter } from 'react-router-dom';
 import 'styles/index.scss';
 import App from 'App';
 import reportWebVitals from './reportWebVitals';
-import Factors from 'App/components/Factors';
-import Login from 'App/components/Login'
+
 
 ReactDOM.render(
   <React.StrictMode>
     <BrowserRouter>
-      <Routes>
-        <Route path='/' element={<App />}>
-          <Route
-            index
-            element={(
-              <div>
-                <h1>Welcome to Life Builder!</h1>
-
-                <Login />
-              </div>
-            )}
-          />
-          <Route path='/factors' element={<Factors />} />
-        </Route>
-      </Routes>
+      <App />
     </BrowserRouter>
   </React.StrictMode>,
   document.getElementById('root')

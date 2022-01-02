@@ -1,51 +1,38 @@
 import { useEffect } from 'react';
-import { Outlet, NavLink } from 'react-router-dom';
-import cl from 'clsx'
+import { Routes, Route } from 'react-router-dom';
 
-import s from './App.module.scss';
+import { AuthProvider } from 'services/Auth/AuthContext';
+import RequireAuth from 'services/Auth/RequireAuth'
+
+import Factors from 'routes/Factors';
+import Login from 'routes/Login'
+import Layout from 'routes/Layout'
+import Index from 'routes/Layout/components/Index'
 
 const App = () => {
   useEffect(() => {
     document.querySelector('body').classList.add('theme-dark')
   }, [])
 
-
   return (
-    <div className={s.root}>
-      <div className={s.header}>
-        <div>
-          <NavLink
-            className={({ isActive }) => cl(
-              s.navlink,
-              isActive ? s['navlink-active'] : '',
-            )}
-            to={'/'}
-          >
-            Life Builder
-          </NavLink>
-        </div>
+    <AuthProvider>
+      <Routes>
+        <Route element={<Layout />}>
+          <Route
+            index
+            element={<Index />}
+          />
+          <Route path='/login' element={<Login />} />
+          <Route path='/factors' element={(
+            <RequireAuth>
+              <Factors />
+            </RequireAuth>
+          )} />
 
-        <nav>
-          <NavLink
-            className={({ isActive }) => cl(
-              s.navlink,
-              isActive ? s['navlink-active'] : '',
-            )}
-            to='/factors'>
-            Factors
-          </NavLink>
-        </nav>
-
-        <div>
-          dandgerson
-        </div>
-      </div>
-
-      <div className={s.main}>
-        <Outlet />
-      </div>
-    </div>
-  );
+        </Route>
+      </Routes>
+    </AuthProvider>
+  )
 }
 
-export default App;
+export default App

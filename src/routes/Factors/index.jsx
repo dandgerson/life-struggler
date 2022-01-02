@@ -2,7 +2,7 @@ import { useMemo } from 'react'
 import s from './Factors.module.scss'
 
 import { getFactors } from 'data'
-import sortFactors from 'App/components/Factors/sortFactors'
+import sortFactors from 'routes/Factors/sortFactors'
 
 const Factors = () => {
 
