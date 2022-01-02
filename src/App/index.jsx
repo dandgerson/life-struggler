@@ -12,7 +12,6 @@ import Index from 'routes/Layout/components/Index'
 const App = () => {
   useEffect(() => {
     document.querySelector('body').classList.add('theme-dark')
-    document.interestCohort()
   }, [])
 
   return (
