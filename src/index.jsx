@@ -4,7 +4,7 @@ import { BrowserRouter } from 'react-router-dom';
 import 'styles/index.scss';
 import App from 'App';
 import reportWebVitals from './reportWebVitals';
-
+import 'floc-off'
 
 ReactDOM.render(
   <React.StrictMode>
