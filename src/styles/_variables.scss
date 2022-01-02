@@ -1,10 +1,11 @@
-body.theme-dark {
-  --dark: rgb(19, 19, 20);
-  --light: rgb(242, 244, 245);
+body {
+  --transition-props: 200ms linear;
 
-  --accent: rgb(29, 205, 155);
-  --background: var(--dark);
-  --background-dimmed: rgb(27, 27, 28);
-  --text-main: var(--light);
-  --text-secondary: rgb(178, 187, 203);
+  --padding-vertical: calc(1rem * 0.5);
+  --padding-horizontal: 1rem;
+
+  --font-size-base: 17px;
+  --line-height-base: 1.65;
+  --font-family-base: 'Monaco', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell',
+    'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
 }
