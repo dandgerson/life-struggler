@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/life-builder/static/css/main.70a631c3.css",
-    "main.js": "/life-builder/static/js/main.2659fe6c.js",
-    "static/js/787.f25b8e86.chunk.js": "/life-builder/static/js/787.f25b8e86.chunk.js",
-    "index.html": "/life-builder/index.html",
-    "main.70a631c3.css.map": "/life-builder/static/css/main.70a631c3.css.map",
-    "main.2659fe6c.js.map": "/life-builder/static/js/main.2659fe6c.js.map",
-    "787.f25b8e86.chunk.js.map": "/life-builder/static/js/787.f25b8e86.chunk.js.map"
+    "main.css": "/life-struggler/static/css/main.70a631c3.css",
+    "main.js": "/life-struggler/static/js/main.b4f5a22f.js",
+    "static/js/787.5a9ddeae.chunk.js": "/life-struggler/static/js/787.5a9ddeae.chunk.js",
+    "index.html": "/life-struggler/index.html",
+    "main.70a631c3.css.map": "/life-struggler/static/css/main.70a631c3.css.map",
+    "main.b4f5a22f.js.map": "/life-struggler/static/js/main.b4f5a22f.js.map",
+    "787.5a9ddeae.chunk.js.map": "/life-struggler/static/js/787.5a9ddeae.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.70a631c3.css",
-    "static/js/main.2659fe6c.js"
+    "static/js/main.b4f5a22f.js"
   ]
 }
