@@ -7,7 +7,7 @@
   + [ ] https://www.digitalocean.com/community/tutorials/how-to-add-login-authentication-to-react-applications
     - [x] setup routing (react-router-dom)
       - [x] https://reactrouter.com/docs/en/v6/getting-started/tutorial
-    - [ ] https://reactrouter.com/docs/en/v6/examples/auth
+    - [x] https://reactrouter.com/docs/en/v6/examples/auth
     - [ ] https://www.digitalocean.com/community/tutorials/nodejs-express-basics
 * [ ] feature: make factor list interactive
 * [ ] feature: add state management (redux/context)
