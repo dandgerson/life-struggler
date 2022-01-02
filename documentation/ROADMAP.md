@@ -17,6 +17,7 @@
 * [ ] feature: add fraction bar
 * [ ] feature: add habit tracker with fractions
 * [ ] feature: add theming
+* [ ] feature: port app to React Native
 
 aside
 
