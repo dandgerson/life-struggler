@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/life-struggler/static/css/main.70a631c3.css",
-    "main.js": "/life-struggler/static/js/main.b4f5a22f.js",
+    "main.js": "/life-struggler/static/js/main.de21ee1c.js",
     "static/js/787.5a9ddeae.chunk.js": "/life-struggler/static/js/787.5a9ddeae.chunk.js",
     "index.html": "/life-struggler/index.html",
     "main.70a631c3.css.map": "/life-struggler/static/css/main.70a631c3.css.map",
-    "main.b4f5a22f.js.map": "/life-struggler/static/js/main.b4f5a22f.js.map",
+    "main.de21ee1c.js.map": "/life-struggler/static/js/main.de21ee1c.js.map",
     "787.5a9ddeae.chunk.js.map": "/life-struggler/static/js/787.5a9ddeae.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.70a631c3.css",
-    "static/js/main.b4f5a22f.js"
+    "static/js/main.de21ee1c.js"
   ]
 }
