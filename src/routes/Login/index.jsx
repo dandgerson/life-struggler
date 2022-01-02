@@ -13,10 +13,7 @@ const Login = () => {
   const handleSubmit = (event) => {
     event.preventDefault()
 
-    console.log({ currentTarget: event.currentTarget })
-
     const formData = new FormData(event.currentTarget)
-    console.log({ formData })
     const username = formData.get('username')
 
     auth.signin(username, () => {

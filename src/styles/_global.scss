@@ -94,7 +94,7 @@ input {
   color: var(--text-secondary);
 
   &:focus {
-    box-shadow: 0px 0px 8px 0px var(--accent);
+    box-shadow: 0px 0px 10px 0px var(--accent);
   }
 }
 
@@ -108,7 +108,7 @@ button {
   transition: box-shadow var(--transition-props), outline var(--transition-props);
 
   &:hover {
-    box-shadow: 0px 0px 4px 0px var(--accent);
+    box-shadow: 0px 0px 6px 0px var(--accent);
     outline: 1px solid var(--accent);
   }
 }

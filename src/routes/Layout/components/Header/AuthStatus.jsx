@@ -8,7 +8,22 @@ const AuthStatus = () => {
 
   return (
     <div>
-      {auth.user ? auth.user : (
+      {auth.user ? (
+        <div style={{
+          display: 'flex',
+          alignItems: 'center',
+          gap: '12px',
+        }}>
+          <div>
+            {auth.user}
+          </div>
+          <button
+            onClick={() => auth.signout(() => navigate('/'))}
+          >
+            Sign Out
+          </button>
+        </div>
+      ) : (
         <button
           onClick={() => navigate('/login')}
         >
