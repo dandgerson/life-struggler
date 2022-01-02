@@ -3,6 +3,8 @@ import cl from 'clsx'
 
 import s from './Header.module.scss'
 
+import AuthStatus from 'routes/Layout/components/Header/AuthStatus'
+
 const Header = () => (
   <div className={s.root}>
     <div>
@@ -28,9 +30,7 @@ const Header = () => (
       </NavLink>
     </nav>
 
-    <div>
-      dandgerson
-    </div>
+    <AuthStatus />
   </div>
 )
 

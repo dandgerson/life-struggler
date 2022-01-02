@@ -1,10 +1,10 @@
 body.theme-dark {
-  --dark: rgb(19, 19, 20);
-  --light: rgb(242, 244, 245);
+  --color-dark: 19, 19, 20;
+  --color-light: 242, 244, 245;
 
   --accent: rgb(29, 205, 155);
-  --background: var(--dark);
-  --background-dimmed: rgb(27, 27, 28);
-  --text-main: var(--light);
+  --background: rgb(var(--color-dark));
+  --background-dimmed: rgba(var(--color-light), 0.025);
+  --text-main: rgb(var(--color-light));
   --text-secondary: rgb(178, 187, 203);
 }
