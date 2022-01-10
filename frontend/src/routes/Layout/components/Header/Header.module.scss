@@ -6,19 +6,92 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
 
-  nav {
-    display: flex;
-    gap: 12px;
+.navlink {
+  font-weight: bold;
+  transition: color var(--transition-props);
+
+  &-active {
+    color: var(--accent);
+    text-shadow: 0px 0px 4px var(--accent);
+  }
+}
+
+.menuButton {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  cursor: pointer;
+
+  div {
+    height: 2px;
+    border-radius: 1px;
+    width: 2rem;
+    background-color: var(--accent);
+    box-shadow: 0px 0px 4px var(--accent);
   }
 
-  .navlink {
-    font-weight: bold;
-    transition: color var(--transition-props);
+  @media (min-width: 601px) {
+    display: none;
+  }
+}
 
-    &-active {
-      color: var(--accent);
-      text-shadow: 0px 0px 4px var(--accent);
+.sideDrawerNav {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+
+  align-items: center;
+  justify-content: center;
+
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  transform: translateX(-100%);
+  transition: transform 200ms;
+
+  padding: 0 3rem;
+
+  box-shadow: 0 2px 8px rgba(var(--accent), 0.26);
+  background-color: var(--background-dimmed-opaque);
+  color: var(--dark);
+
+  z-index: 100;
+
+  & > ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  &-active {
+    transform: translateX(0);
+  }
+}
+
+.mainNavBar {
+  display: none;
+
+  @media (min-width: 601px) {
+    display: flex;
+
+    & > ul {
+      display: flex;
+      gap: 12px;
+      align-items: center;
     }
+  }
+}
+
+.authStatus {
+  display: none;
+
+  @media (min-width: 601px) {
+    display: block;
   }
 }

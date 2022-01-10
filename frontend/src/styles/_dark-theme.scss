@@ -5,6 +5,7 @@ body.theme-dark {
   --accent: rgb(29, 205, 155);
   --background: rgb(var(--color-dark));
   --background-dimmed: rgba(var(--color-light), 0.025);
+  --background-dimmed-opaque: rgb(19, 19, 20);
   --text-main: rgb(var(--color-light));
   --text-secondary: rgb(178, 187, 203);
 }

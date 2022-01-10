@@ -1,20 +1,17 @@
 import { useNavigate } from 'react-router-dom'
 
 import { useAuth } from 'services/Auth/AuthContext'
+import s from './AuthStatus.module.scss'
 
 const AuthStatus = () => {
   const auth = useAuth()
   const navigate = useNavigate()
 
   return (
-    <div>
+    <div className={s.root}>
       {auth.user ? (
-        <div style={{
-          display: 'flex',
-          alignItems: 'center',
-          gap: '12px',
-        }}>
-          <div>
+        <>
+          <div className={s.username}>
             {auth.user}
           </div>
           <button
@@ -22,7 +19,7 @@ const AuthStatus = () => {
           >
             Sign Out
           </button>
-        </div>
+        </>
       ) : (
         <button
           onClick={() => navigate('/login')}

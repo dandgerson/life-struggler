@@ -1,0 +1,14 @@
+.root {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+
+  .username {
+    color: var(--text-secondary);
+  }
+
+  @media (min-width: 601px) {
+    flex-direction: row;
+    align-items: center;
+  }
+}
