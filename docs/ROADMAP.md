@@ -8,9 +8,10 @@
     - [x] setup routing (react-router-dom)
       - [x] https://reactrouter.com/docs/en/v6/getting-started/tutorial
     - [x] https://reactrouter.com/docs/en/v6/examples/auth
+* [ ] feature: make mobile-first
+  + [ ] add mobile navbar
 * [ ] feature: add data base (mongodb)
   + [ ] https://www.bezkoder.com/react-node-mongodb-auth/
-* [ ] feature: make mobile-first
 * [ ] feature: make factor list interactive
 * [ ] feature: add state management (redux/context)
 * [ ] feature: add factor fractions
