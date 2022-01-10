@@ -10,6 +10,8 @@
     - [x] https://reactrouter.com/docs/en/v6/examples/auth
 * [x] feature: make mobile-first
   + [x] add mobile navbar
+* [ ] feture: show current page in header
+  + [ ] make header sticky
 * [ ] feature: add data base (mongodb)
   + [ ] https://www.bezkoder.com/react-node-mongodb-auth/
 * [ ] feature: make factor list interactive
