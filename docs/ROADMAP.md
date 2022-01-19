@@ -21,6 +21,8 @@
 * [ ] feature: add fraction bar
 * [ ] feature: add habit tracker with fractions
 * [ ] feature: add theming
+* [ ] feature: add push notifications
+  + [ ] https://developers.google.com/learn/pathways/pwa-push-notifications?hl=en
 * [ ] feature: port app to React Native
 
 aside
